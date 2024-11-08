@@ -1,0 +1,65 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+   
+    
+    
+}
+.hero{
+    Height: 700px;
+    background-color: #1F2937;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+
+.header a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+.information {
+    Height: 700px;
+    background-color: white;
+    width: 100%;
+}
+.quote{
+    Height: 700px;
+    background-color: #E5E7EB;
+    width: 100%;
+}
+.fourth {
+    Height: 700px;
+    background-color: white;
+    width: 100%;
+}
+.cat-dog-logo {
+    width: 90px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 25%;
+    padding: 20px;
+}
+
+a:hover {
+    color: blue;
+}
