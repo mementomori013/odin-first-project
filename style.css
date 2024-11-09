@@ -3,11 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
-    
-   
-    
-    
+    padding: 0;   
 }
 .hero{
     Height: 700px;
@@ -15,8 +11,9 @@ body{
     width: 100%; 
     display: flex;
     flex-direction: column;
-    align-items: center;
-  
+    align-items: center; 
+    gap: 40px;
+    
 }
 .header{
     display: flex;
@@ -27,15 +24,12 @@ body{
 .header ul{
     display: flex;
     gap: 50px;
-    list-style: none;
-    
+    list-style: none;   
 }
-
 .header a{
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 18px;
-    
+    font-size: 18px;   
 }
 .information {
     Height: 700px;
@@ -63,3 +57,39 @@ body{
 a:hover {
     color: blue;
 }
+.page-intro{
+    width: 600px;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page-intro-text {
+    font-size: 100px;
+    color: white;
+    margin: 0;
+
+}
+.page-intro p{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    margin-bottom: 100px;
+} 
+.cat-dog-img {
+    margin: 0;
+    width: 370px;
+    height: 450px;
+    border-radius: 10px;
+} 
+.page-intro-img {
+    border-color: white;
+    border: 20px;
+} 
+.hero-main{
+    display: flex;
+    width: 1500px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
