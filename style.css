@@ -56,11 +56,6 @@ body{
     
 }
 
-.fourth {
-    Height: 700px;
-    background-color: white;
-    width: 100%;
-}
 .cat-dog-logo {
     width: 90px;
     margin-top: 20px;
@@ -201,4 +196,46 @@ img {
 .owner{
     align-self: flex-end;
     font-size: 36px;
+}
+
+.register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Height: 300px;
+    background-color: white;
+    width: 100%;
+}
+.register-content{
+    display: flex;
+    width: 600px;
+    background-color: #3882f6;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.register-text{
+    font-size: 25px;
+    box-sizing: border-box;
+    color: #f9faf8  ;
+}
+.register-button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 20px;
+    color: #f9faf8;
+    height: 60px;
+}
+.footer{
+    background-color: #1F2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    color: #f9faf8;
+    font-size: 30px;
 }
